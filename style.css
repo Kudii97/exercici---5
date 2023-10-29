@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+#portada {
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/fons-programació.avif);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.nom {
+    margin: 0;
+    padding: 50px 70px;
+
+}
+
+.titol {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}
+
+#index {
+    font-family: sans-serif;
+    background-color: rgb(255, 241, 214);
+    height: 100vh;
+    width: 100%;
+}
+
+#titol-index {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-left: 70px;
+}
+
+#navegador-index {
+    margin: 5px;
+    margin-left: 200px;
+}
+
+.capitols {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.capitols ul {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.apartats {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+footer {
+    margin: 20px;
+}
+
+a:hover {
+    color: red;
+}
+
+
+#capitol {
+    margin: 20px;
+    padding: 0px;
+    background-color: rgb(255, 241, 214);
+}
+h2 {
+    margin: 20px;
+    margin-left: -5px;
+    margin-top: 30px;
+}
+p {
+    margin-left: 20px;
+}
